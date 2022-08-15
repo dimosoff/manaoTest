@@ -2221,6 +2221,16 @@ body {
   opacity: 1;
   background-position: 6px 5px;
 }
+.f-item__error-message {
+  font-size: 14px;
+  margin: 3px 0 -10px;
+  color: #b02828;
+}
+@media (max-width: 575.98px) {
+  .f-item__error-message {
+    font-size: 13px;
+  }
+}
 .f-item__button-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

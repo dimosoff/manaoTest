@@ -1381,8 +1381,15 @@ body {
       }
     }
   }
-  // &__error-message {
-  // }
+  &__error-message {
+    font-size: 14px;
+    margin: 3px 0 -10px;
+    color: $required-and-error;
+
+    @media ($mobile-max) {
+      font-size: 13px;
+    }
+  }
   &__button-wrapper {
     display: flex;
     justify-content: space-between;
