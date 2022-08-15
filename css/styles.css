@@ -151,7 +151,8 @@ button {
 
 a,
 input,
-button {
+button,
+[role=button] {
   -webkit-transition: -webkit-box-shadow 0.3s ease;
   transition: -webkit-box-shadow 0.3s ease;
   transition: box-shadow 0.3s ease;
@@ -1307,6 +1308,7 @@ body {
 }
 .about-us__image-wrapper {
   height: 198px;
+  overflow: visible;
   min-height: 100%;
   border-radius: 9px;
 }
@@ -1573,10 +1575,14 @@ body {
 .publications__container .swiper-button-next:hover:after {
   opacity: 1;
 }
-.publications__container .swiper-button-prev:focus,
-.publications__container .swiper-button-next:focus {
+.publications__container .swiper-button-prev:focus:not(:focus-visible),
+.publications__container .swiper-button-next:focus:not(:focus-visible) {
   -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+.publications__container .swiper-button-prev:focus-visible:after,
+.publications__container .swiper-button-next:focus-visible:after {
+  opacity: 1;
 }
 .publications__container .swiper-button-next {
   right: 5px;
@@ -2502,7 +2508,9 @@ body {
 }
 
 .my-gallery-toggle-button {
+  border-radius: 9px;
   position: relative;
+  overflow: hidden;
   display: block;
   padding: 0;
   height: 100%;

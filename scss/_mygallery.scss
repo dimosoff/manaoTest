@@ -91,7 +91,9 @@
   }
 }
 .my-gallery-toggle-button {
+  border-radius: 9px;
   position: relative;
+  overflow: hidden;
   display: block;
   padding: 0;
   height: 100%;

@@ -16,7 +16,8 @@
 }
 a,
 input,
-button {
+button,
+[role=button] {
   transition: box-shadow $transition3;
   box-shadow: 0 0 0 1px transparent;
 }

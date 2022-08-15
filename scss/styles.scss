@@ -635,6 +635,7 @@ body {
   }
   &__image-wrapper {
     height: 198px;
+    overflow: visible;
     min-height: 100%;
     border-radius: 9px;
 
@@ -827,8 +828,11 @@ body {
           opacity: 1;
         }
       }
-      &:focus {
+      &:focus:not(:focus-visible) {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+      }
+      &:focus-visible:after {
+        opacity: 1;
       }
     }
     .swiper-button-next {
