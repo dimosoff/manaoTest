@@ -2228,7 +2228,6 @@ body {
 }
 .f-item__error-message {
   font-size: 14px;
-  margin: 3px 0 -10px;
   color: #b02828;
 }
 @media (max-width: 575.98px) {
@@ -2236,6 +2235,14 @@ body {
     font-size: 13px;
     margin-bottom: 0;
     padding-bottom: 3px;
+  }
+}
+.f-item__error-message_active {
+  margin: 3px 0 -10px;
+}
+@media (max-width: 991.98px) {
+  .f-item__error-message_active {
+    margin-bottom: 0;
   }
 }
 .f-item__button-wrapper {

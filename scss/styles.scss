@@ -1386,13 +1386,20 @@ body {
   }
   &__error-message {
     font-size: 14px;
-    margin: 3px 0 -10px;
     color: $required-and-error;
 
     @media ($mobile-max) {
       font-size: 13px;
       margin-bottom: 0;
       padding-bottom: 3px;
+    }
+
+    &_active {
+      margin: 3px 0 -10px;
+
+      @media ($tablet-max) {
+        margin-bottom: 0;
+      }
     }
   }
   &__button-wrapper {
