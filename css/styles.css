@@ -1191,7 +1191,6 @@ body {
   width: auto;
   -webkit-filter: brightness(1380%) saturate(10%);
           filter: brightness(1380%) saturate(10%);
-  padding: 10px 0;
   max-width: 102px;
   max-height: 40px;
 }
