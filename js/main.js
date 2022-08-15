@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
         switch (currentElement.id) {
           case "email":
             if (!validateEmail(currentElement.value)) {
-              setValidationClasses(errorParams, "wrong");
+              setValidationClasses(emptyParams, "wrong");
               break;
             }
           // eslint-disable-next-line no-fallthrough
