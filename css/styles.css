@@ -1040,6 +1040,7 @@ body {
   bottom: 0;
   display: block;
   overflow: hidden;
+  background: url("../images/main_banner.jpg") center/cover no-repeat #040b2a;
   background-color: #040b2a;
 }
 .main-banner__container {
@@ -1796,7 +1797,7 @@ body {
 .evaluation {
   color: #fff;
   padding: 113px 0 41px;
-  background-color: #090b32;
+  background: url("../images/footer.jpg") center/cover no-repeat #090b32;
 }
 @media (max-width: 991.98px) and (min-width: 768px) {
   .evaluation {
