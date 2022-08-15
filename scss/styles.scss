@@ -1388,6 +1388,8 @@ body {
 
     @media ($mobile-max) {
       font-size: 13px;
+      margin-bottom: 0;
+      padding-bottom: 3px;
     }
   }
   &__button-wrapper {
@@ -1460,19 +1462,15 @@ body {
   left: 50%;
   opacity: 0;
   z-index: 1000;
+  padding: 25px 20px 20px;
   overflow: hidden;
   transform: translate(-50%, -50%);
+  min-width: 250px;
+  text-align: center;
   visibility: hidden;
   border-radius: 9px;
   background-color: $secondary-background;
   transition: opacity $transition3, visibility $transition3;
-
-  @media ($desktop-min) {
-    padding: 25px 20px 20px;
-  }
-  @media ($mobile-max) {
-    padding: 33px 22px 24px;
-  }
 
   &_active {
     z-index: 1050;

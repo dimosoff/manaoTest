@@ -2229,6 +2229,8 @@ body {
 @media (max-width: 575.98px) {
   .f-item__error-message {
     font-size: 13px;
+    margin-bottom: 0;
+    padding-bottom: 3px;
   }
 }
 .f-item__button-wrapper {
@@ -2320,24 +2322,17 @@ body {
   left: 50%;
   opacity: 0;
   z-index: 1000;
+  padding: 25px 20px 20px;
   overflow: hidden;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  min-width: 250px;
+  text-align: center;
   visibility: hidden;
   border-radius: 9px;
   background-color: #f6f4f9;
   -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
   transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-@media (min-width: 992px) {
-  .thank-you-popup {
-    padding: 25px 20px 20px;
-  }
-}
-@media (max-width: 575.98px) {
-  .thank-you-popup {
-    padding: 33px 22px 24px;
-  }
 }
 .thank-you-popup_active {
   z-index: 1050;
