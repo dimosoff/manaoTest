@@ -1,0 +1,65 @@
+// Pragmatica
+@font-face {
+  font-family: 'Pragmatica';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/Pragmatica-Light.woff2') format('woff2'),
+       url('../fonts/Pragmatica-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pragmatica';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/Pragmatica-Regular.woff2') format('woff2'),
+       url('../fonts/Pragmatica-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pragmatica';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/Pragmatica-Medium.woff2') format('woff2'),
+       url('../fonts/Pragmatica-Medium.woff') format('woff');
+}
+// TT Commons
+@font-face {
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/TTCommons-Regular.woff2') format('woff2'),
+       url('../fonts/TTCommons-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/TTCommons-Medium.woff2') format('woff2'),
+       url('../fonts/TTCommons-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/TTCommons-DemiBold.woff2') format('woff2'),
+       url('../fonts/TTCommons-DemiBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/TTCommons-Bold.woff2') format('woff2'),
+       url('../fonts/TTCommons-Bold.woff') format('woff');
+}

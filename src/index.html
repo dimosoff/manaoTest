@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('html/head.html', {
+"title": "Test Page for Manao"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/header.html', {})
+    <main class="main-banner">
+      <div class="main-banner__picture">
+        <!-- <img class="_bkgr-image" src="images/banner_group_02.svg"
+          alt="Техническая поддержка сайтов и корпоративных порталов" width="1920" height="1080"> -->
+      </div>
+      <div class="main-banner__container container">
+        <div class="main-banner__content">
+          <h1 class="main-banner__heading heading">Техническая поддержка сайтов и корпоративных порталов</h1>
+          <h2 class="main-banner__subheading subheading">Верстка. Программирование. Дизайн.</h2>
+          <a href="#evaluation" class="main-banner__button _btn">
+            <svg class="module-border" width="100%" height="100%" aria-hidden="true">
+              <use href="#borderGradient" />
+            </svg>
+            Отправить сайт на оценку
+          </a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="main-banner__partners mb-partners">
+          <span class="mb-partners__heading">Партнеры:</span>
+          <img class="mb-partners__image" src="images/partner_01.png" alt="Наш партнер Битрикс24" width="95" height="20">
+          <img class="mb-partners__image" src="images/partner_02.png" alt="Наш партнер 1С-Битрикс" width="101" height="20">
+        </div>
+      </div>
+    </main>
+    <section class="about-us" id="about-us">
+      <div class="about-us__container container">
+        <div class="about-us__column">
+          <h2 class="about-us__heading heading">О нас</h2>
+          <h3 class="about-us__subheading subheading">Техподдержка от бесперебойного аутсорс-продакшна</h3>
+          <div class="about-us__content">
+            <p>
+              Являясь партнером более 30 агентств, которые доверили нам 100+ проектов и могут подтвердить качество
+              работы, мы сформировали новую услугу, использовав весь опыт, накопленный в первом юните.
+            </p>
+            <p>
+              Manao.Support — это концентрация системной работы, четких процессов и регламентов, позволяющих
+              минимизировать ситуации, когда исполнители о чем-то забыли, не завершили часть задачи или просто
+              некорректно ее поняли.
+            </p>
+          </div>
+          <div class="about-us__images">
+            <div class="about-us__image-wrapper about-us__image-wrapper_half _image-wrapper">
+              <button class="my-gallery-toggle-button" type="button" data-gallery="">
+                <img class="_bkgr-image" data-lazyload="" src="images/placeholder.svg"
+                  data-src="images/thumbnails/about_us_02.jpg" alt="Наша команда" width="270" height="198">
+              </button>
+            </div>
+            <div class="about-us__image-wrapper about-us__image-wrapper_half _image-wrapper">
+              <button class="my-gallery-toggle-button" type="button" data-gallery="">
+                <img class="_bkgr-image" data-lazyload="" src="images/placeholder.svg"
+                  data-src="images/thumbnails/about_us_03.jpg" alt="Работа кипит" width="270" height="198">
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="about-us__column">
+          <div class="about-us__image-wrapper about-us__image-wrapper_no-gaps _image-wrapper">
+            <button class="my-gallery-toggle-button" type="button" data-gallery="">
+              <img class="_bkgr-image" data-lazyload="" src="images/placeholder.svg"
+                data-src="images/thumbnails/about_us_01.jpg" alt="Эффективная техподдержка" width="570" height="530">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="services__container container">
+        <h2 class="services__heading heading">Услуги</h2>
+        <h3 class="services__subheading subheading">Возьмем на себя комплексную поддержку сайта/портала</h3>
+        <div class="services__featurettes featurettes">
+          <div class="featurettes__item">
+            <div class="featurettes__icon" data-animation="rotate180">
+              <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <mask id="a" fill="#fff">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M15 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v3.715c0 .45.301.84.726.985.62.212 1.222.47 1.799.768.406.21.906.151 1.23-.172L28.4 3.651a1 1 0 0 1 1.414 0l3.535 3.535a1 1 0 0 1 0 1.414l-2.702 2.703c-.32.32-.382.812-.178 1.215.286.566.535 1.155.745 1.764.146.421.534.718.98.718H36a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-3.5a1.05 1.05 0 0 0-1 .789 14.226 14.226 0 0 1-.732 2.063c-.176.395-.105.861.201 1.167l2.38 2.38a1 1 0 0 1 0 1.415l-3.535 3.535a1 1 0 0 1-1.415 0l-2-2a1.053 1.053 0 0 0-1.278-.146c-.756.442-1.557.811-2.395 1.097a1.053 1.053 0 0 0-.726.985V36a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-2.715c0-.45-.301-.84-.726-.985a13.184 13.184 0 0 1-2.395-1.097c-.412-.24-.94-.192-1.277.145L8.6 33.35a1 1 0 0 1-1.415 0l-3.535-3.535a1 1 0 0 1 0-1.415l2.38-2.38c.306-.305.377-.772.201-1.167-.294-.662-.54-1.35-.732-2.063a1.05 1.05 0 0 0-1-.789H1a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1h3.806c.446 0 .834-.297.98-.718.21-.609.46-1.198.745-1.764a1.049 1.049 0 0 0-.178-1.215L3.65 8.6a1 1 0 0 1 0-1.414l3.535-3.535a1 1 0 0 1 1.414 0l2.646 2.645c.323.323.823.383 1.23.172a13.146 13.146 0 0 1 1.798-.768c.425-.146.726-.536.726-.985V1Z" />
+                </mask>
+                <path
+                  d="m28.4 3.65 1.414 1.415L28.4 3.65Zm1.414 0 1.414-1.413-1.414 1.414Zm3.535 3.536 1.415-1.414-1.415 1.414Zm0 1.414 1.415 1.415L33.349 8.6Zm0 21.214-1.414-1.415 1.414 1.415Zm-3.535 3.535 1.414 1.414-1.414-1.414Zm-1.415 0-1.414 1.414L28.4 33.35Zm-19.798 0-1.415-1.414 1.415 1.414Zm-1.415 0 1.415-1.414-1.415 1.414Zm-3.535-3.535-1.414 1.414 1.414-1.414Zm0-1.415-1.414-1.414L3.65 28.4Zm0-19.799-1.414 1.415L3.65 8.6Zm0-1.414L5.065 8.6 3.65 7.186Zm3.535-3.535L5.772 2.236l1.414 1.415Zm1.414 0 1.415-1.415L8.6 3.651ZM5.5 22.789l-1.93.522 1.93-.522Zm6.379 8.414-1.01 1.727 1.01-1.727Zm-1.277.145-1.415-1.414 1.415 1.414ZM6.03 26.02l1.414 1.415-1.414-1.415Zm.201-1.167 1.828-.812-1.828.812ZM22.726 32.3l.647 1.893-.647-1.893Zm3.028-26.004L24.34 4.882l1.414 1.414ZM14.274 32.3l-.647 1.893.647-1.893ZM5.786 14.282l-1.89-.653 1.89.653ZM31.5 22.789l1.93.522-1.93-.522Zm-5.102 8.56 1.415-1.415-1.415 1.414Zm-1.277-.146-1.01-1.726 1.01 1.726Zm5.526-19.9-1.414-1.415 1.414 1.415Zm-.178 1.215 1.785-.901-1.785.901ZM22.726 5.7l-.646 1.892.646-1.892ZM16-2a3 3 0 0 0-3 3h4a1 1 0 0 1-1 1v-4Zm5 0h-5v4h5v-4Zm3 3a3 3 0 0 0-3-3v4a1 1 0 0 1-1-1h4Zm0 3.715V1h-4v3.715h4Zm-1.92 2.877c.525.18 1.035.398 1.525.652l1.84-3.552a15.148 15.148 0 0 0-2.072-.885L22.08 7.592Zm4.905-5.355L24.34 4.882 27.17 7.71l2.645-2.645-2.829-2.829Zm4.243 0a3 3 0 0 0-4.243 0l2.829 2.828a1 1 0 0 1-1.414 0l2.828-2.829Zm3.535 3.535-3.535-3.536L28.4 5.066 31.935 8.6l2.829-2.828Zm0 4.243a3 3 0 0 0 0-4.243L31.936 8.6a1 1 0 0 1 0-1.414l2.829 2.829Zm-2.702 2.702 2.703-2.702-2.829-2.829-2.702 2.702 2.828 2.829Zm-3.378.702c.246.486.46.992.64 1.515l3.782-1.305a16.193 16.193 0 0 0-.85-2.012l-3.572 1.802ZM36 13h-3.806v4H36v-4Zm3 3a3 3 0 0 0-3-3v4a1 1 0 0 1-1-1h4Zm0 5v-5h-4v5h4Zm-3 3a3 3 0 0 0 3-3h-4a1 1 0 0 1 1-1v4Zm-3.5 0H36v-4h-3.5v4Zm-2.93-1.733a12.228 12.228 0 0 1-.63 1.773l3.655 1.624c.336-.755.616-1.541.835-2.353l-3.86-1.044Zm5.193 4.718-2.38-2.38-2.828 2.829 2.38 2.38 2.828-2.829Zm0 4.243a3 3 0 0 0 0-4.243l-2.828 2.829a1 1 0 0 1 0-1.415l2.828 2.829Zm-3.535 3.535 3.535-3.535-2.828-2.829-3.536 3.536 2.829 2.828Zm-4.243 0a3 3 0 0 0 4.243 0l-2.829-2.828a1 1 0 0 1 1.415 0l-2.829 2.828Zm-2-2 2 2 2.829-2.828-2.001-2.001-2.829 2.828Zm-.873-3.286c-.643.376-1.323.688-2.032.93l1.293 3.786c.965-.33 1.888-.755 2.758-1.263l-2.02-3.453ZM24 36v-2.715h-4V36h4Zm-3 3a3 3 0 0 0 3-3h-4a1 1 0 0 1 1-1v4Zm-5 0h5v-4h-5v4Zm-3-3a3 3 0 0 0 3 3v-4a1 1 0 0 1 1 1h-4Zm0-2.715V36h4v-2.715h-4Zm1.92-2.877a11.181 11.181 0 0 1-2.031-.931l-2.02 3.453c.87.508 1.793.933 2.758 1.263l1.293-3.785Zm-4.905 4.355 2-2-2.828-2.829-2 2.001 2.828 2.828Zm-4.243 0a3 3 0 0 0 4.243 0l-2.829-2.828a1 1 0 0 1 1.415 0l-2.829 2.828Zm-3.535-3.535 3.535 3.535 2.829-2.828-3.536-3.536-2.828 2.829Zm0-4.243a3 3 0 0 0 0 4.243l2.828-2.829a1 1 0 0 1 0 1.415l-2.828-2.829Zm2.38-2.38-2.38 2.38 2.828 2.829 2.38-2.38-2.828-2.829Zm3.443-.565a12.232 12.232 0 0 1-.63-1.773L3.57 23.31c.22.812.5 1.598.835 2.353L8.06 24.04ZM1 24h3.5v-4H1v4Zm-3-3a3 3 0 0 0 3 3v-4a1 1 0 0 1 1 1h-4Zm0-5v5h4v-5h-4Zm3-3a3 3 0 0 0-3 3h4a1 1 0 0 1-1 1v-4Zm3.806 0H1v4h3.806v-4Zm2.87 1.934c.181-.523.395-1.029.64-1.515l-3.57-1.802c-.327.646-.611 1.318-.85 2.012l3.78 1.305Zm-5.44-4.92 2.703 2.703 2.828-2.829-2.702-2.702-2.829 2.829Zm0-4.242a3 3 0 0 0 0 4.243l2.829-2.829a1 1 0 0 1 0 1.414L2.236 5.772Zm3.536-3.536L2.236 5.772 5.066 8.6 8.6 5.065 5.772 2.236Zm4.243 0a3 3 0 0 0-4.243 0L8.6 5.065a1 1 0 0 1-1.414 0l2.829-2.829Zm2.645 2.646-2.645-2.646-2.829 2.829L9.832 7.71l2.828-2.828Zm.735 3.362c.49-.254 1-.472 1.525-.652l-1.293-3.785c-.715.244-1.408.541-2.072.885l1.84 3.552ZM13 1v3.715h4V1h-4Zm1.92 6.592c1.17-.4 2.08-1.506 2.08-2.877h-4c0-.473.308-.799.627-.908l1.293 3.785ZM8.317 13.42c.563-1.117.424-2.556-.55-3.53L4.94 12.716a.952.952 0 0 1-.193-1.1l3.57 1.802Zm-.886 8.848C7.089 21.004 5.942 20 4.499 20v4a.951.951 0 0 1-.93-.689l3.862-1.044Zm5.458 7.21c-1.134-.663-2.67-.575-3.702.457l2.829 2.828a.947.947 0 0 1-1.147.168l2.02-3.453Zm16.434-14.543c.404 1.17 1.511 2.066 2.871 2.066v-4c.468 0 .798.303.91.63l-3.78 1.304Zm-21.878 12.5c.932-.933 1.102-2.297.615-3.394l-3.655 1.624a.953.953 0 0 1 .212-1.059l2.828 2.829ZM9.832 7.71c.987.987 2.445 1.113 3.563.534l-1.84-3.552a.949.949 0 0 1 1.105.19L9.832 7.71ZM22.08 30.408c-1.17.4-2.08 1.505-2.08 2.877h4a.948.948 0 0 1-.627.908l-1.293-3.785Zm1.525-22.164c1.118.58 2.576.454 3.564-.534L24.34 4.882a.949.949 0 0 1 1.105-.19l-1.84 3.552ZM17 33.285c0-1.371-.91-2.478-2.08-2.877l-1.293 3.785a.948.948 0 0 1-.627-.908h4ZM4.806 17c1.36 0 2.467-.897 2.87-2.066l-3.78-1.305a.953.953 0 0 1 .91-.629v4Zm24.134 7.04c-.487 1.097-.317 2.462.615 3.394l2.828-2.829c.32.32.348.753.212 1.059L28.94 24.04ZM32.5 20c-1.442 0-2.59 1.004-2.93 2.267l3.86 1.044a.951.951 0 0 1-.93.689v-4Zm-4.687 9.934c-1.032-1.032-2.568-1.12-3.701-.457l2.019 3.453a.947.947 0 0 1-1.147-.168l2.829-2.828Zm1.42-20.046c-.974.975-1.113 2.414-.55 3.531l3.572-1.802a.952.952 0 0 1-.194 1.1l-2.828-2.829ZM20 4.715c0 1.371.91 2.478 2.08 2.877l1.293-3.785c.319.109.627.435.627.908h-4Z"
+                  fill="#fff" mask="url(#a)" />
+                <circle cx="18.5" cy="18.5" r="6.5" stroke="#fff" stroke-width="2" />
+              </svg>
+            </div>
+            <span class="featurettes__heading">Оптимизи&shy;ровать верстку</span>
+          </div>
+          <div class="featurettes__item">
+            <div class="featurettes__icon" data-animation="translateX">
+              <svg width="26" height="34" viewBox="0 0 26 34" fill="none" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path d="M15.8 1H2a1 1 0 0 0-1 1v30a1 1 0 0 0 1 1h21.2a1 1 0 0 0 1-1V9" stroke="#fff"
+                  stroke-width="2" />
+                <path d="M22.508 8H16.8V2.54L22.508 8ZM5 8.8h7.2M5 13.6h15.2M5 18.4h15.2M5 23.2h15.2M5 28h15.2"
+                  stroke="#fff" stroke-width="2" />
+              </svg>
+            </div>
+            <span class="featurettes__heading">Создать страницы</span>
+          </div>
+          <div class="featurettes__item">
+            <div class="featurettes__icon" data-animation="squeeze">
+              <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path
+                  d="M1.1 0C.508 0 0 .508 0 1.1v26.8c0 .592.508 1.1 1.1 1.1h26.8c.592 0 1.1-.508 1.1-1.1V1.1c0-.592-.508-1.1-1.1-1.1ZM2 2h25v25H17V13.455l3.742-3.459v4.168h2V6.752h-.015v-.014h-7.942v1.916h4.426L15.473 12H2Zm0 12h13v13H2Z"
+                  fill="#fff" />
+              </svg>
+            </div>
+            <span class="featurettes__heading">Адапти&shy;ровать содержа&shy;ние</span>
+          </div>
+          <div class="featurettes__item">
+            <div class="featurettes__icon" data-animation="wobble">
+              <svg width="42" height="26" viewBox="0 0 42 26" fill="none" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path
+                  d="M40.01 9.975a4.148 4.148 0 0 0-4.083-.184l-.705.354v-6.81a1.06 1.06 0 0 0-1.056-1.061c-2.636 0-4.85 1.853-5.425 4.332L23.051.879a1.05 1.05 0 0 0-1.492 0c-.168.17-.325.348-.47.533a5.92 5.92 0 0 0-.84-1.078 1.05 1.05 0 0 0-1.513-.023l-6.973 7.017a11.982 11.982 0 0 0-3.458 7.453h-1.25c-.583 0-1.055.475-1.055 1.061v9.096C6 25.525 6.472 26 7.055 26h11.297c.163 0 .325-.038.471-.112l22.594-11.37c.357-.18.583-.548.583-.95a4.205 4.205 0 0 0-1.99-3.593ZM20.227 8.634c.168-.17.325-.348.47-.533.24.396.528.765.862 1.1l2.516 2.533v3.39l-4.084 1.644-2.227-4.482a1.217 1.217 0 0 1 .225-1.4l2.238-2.252Zm8.367 9.963-10.492 5.28H8.11v-6.973h1.205c.583 0 1.055-.475 1.055-1.062a9.884 9.884 0 0 1 2.886-7.012l6.12-6.16a3.76 3.76 0 0 1 .455 1.803c0 1.004-.388 1.949-1.095 2.66l-2.237 2.252a3.347 3.347 0 0 0-.621 3.85l2.661 5.356c.245.494.826.716 1.335.511l5.648-2.274c.4-.161.663-.551.663-.985v-4.548c0-.282-.11-.552-.309-.751L23.051 7.7a3.75 3.75 0 0 1-1.095-2.66c0-.64.158-1.257.455-1.803l6.183 6.222v9.137zm4.518-6.702c0 2.101-.892 4.04-2.409 5.378v-9.39a3.49 3.49 0 0 1 2.41-3.321zm1.317 3.766a9.327 9.327 0 0 0 .771-3.131l1.67-.84a2.063 2.063 0 0 1 2.03.091c.442.275.757.693.902 1.176z"
+                  fill="#fff" />
+              </svg>
+            </div>
+            <span class="featurettes__heading">Настро&shy;ить интегра&shy;цию</span>
+          </div>
+          <div class="featurettes__item">
+            <div class="featurettes__icon" data-animation="shake">
+              <svg width="31" height="33.783" viewBox="0 0 31 33.783" fill="none" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path
+                  d="M12.967 5.896h2.948v3.931h2.303c3.715 0 7.407-1.441 10.185-4.219l.694-.694-.694-.695A14.397 14.397 0 0 0 18.218 0h-2.303v3.93h-2.948V1.966H1.174v5.897h11.793zm4.913-3.93c.2.033 4.475-.372 8.38 2.948a12.345 12.345 0 0 1-8.042 2.948h-.338ZM7.07 5.896H3.14V3.931h3.93zm3.931 0H9.036V3.931H11z"
+                  fill="#fff" />
+                <path stroke="#fff" stroke-width="2"
+                  d="M14 15.783h10v6H14zM1 27.782h12v5H1zM13 27.782h11v5H13zM9 22.782h11v5H9zM20 22.782h10v5H20z" />
+              </svg>
+            </div>
+            <span class="featurettes__heading">Модер&shy;низи&shy;ровать сайт</span>
+          </div>
+          <div class="featurettes__item">
+            <div class="featurettes__icon" data-animation="translateY">
+              <svg width="26" height="45" viewBox="0 0 26 45" fill="none" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path
+                  d="M2 6.7a2 2 0 0 0-2 2v19.215a2 2 0 0 0 2 2h5.531c1.213 0 2.32.73 2.602 1.908.381 1.592.605 3.78-.6 4.932-2.033 1.945-2.004 4.98 0 6.84 1.944 1.803 4.99 1.803 6.934 0 2.004-1.86 2.033-4.895 0-6.84-1.205-1.153-.981-3.34-.6-4.932.283-1.18 1.39-1.908 2.602-1.908H24a2 2 0 0 0 2-2V8.7a2 2 0 0 0-2-2Zm0 2h22v9.094H2Zm0 11.094h22v3.146H2Zm0 5.146h22v2.975h-5.531c-1.963 0-4.01 1.204-4.547 3.44-.213.888-.41 2.044-.348 3.204.06 1.142.388 2.568 1.51 3.64 1.215 1.163 1.17 2.865.023 3.929a3.122 3.122 0 0 1-4.214 0c-1.147-1.064-1.192-2.766.023-3.928 1.121-1.073 1.45-2.5 1.51-3.64.061-1.161-.135-2.317-.348-3.204-.536-2.237-2.584-3.441-4.547-3.441H2Z"
+                  fill="#fff" />
+              </svg>
+            </div>
+            <span class="featurettes__heading">Испра&shy;вить ошибки</span>
+          </div>
+          <div class="featurettes__item">
+            <div class="featurettes__icon" data-animation="shake">
+              <svg width="34.5" height="34.946" viewBox="0 0 34.5 34.946" fill="none" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path
+                  d="M8.842 0a2.99 2.99 0 0 0-2.18.874L1.418 6.116a3.015 3.015 0 0 0-.008 4.234h-.002l6.819 6.88L.58 24.875a2.015 2.015 0 0 0 0 2.83l6.662 6.66a2.015 2.015 0 0 0 2.83 0l7.663-7.662 6.39 6.36a3.016 3.016 0 0 0 4.238-.007l5.266-5.265a3.015 3.015 0 0 0-.05-4.29l-6.466-6.177 5.008-5.008a2 2 0 0 0 .56-1.094l1.281-7.995c.17-1.313-.883-2.546-2.282-2.255h-.002l-6.86 1.03s-1.659.358-2.1.778l-5.24 5.194L10.988.958A2.992 2.992 0 0 0 8.842 0Zm-.04 1.987c.26.005.519.115.716.328l6.547 7.076-6.424 6.422-1.553-1.566 1.053-1.055-1.414-1.412-1.047 1.047L4.95 11.08l2.3-2.3-1.415-1.413L3.543 9.66l-.713-.719a.984.984 0 0 1 .002-1.41l5.244-5.244a.998.998 0 0 1 .727-.301ZM32 2.946l-.16.986-1.133 6.97-1.244 1.245-1.976-1.098-.706-2.822-3.18-1.06-.827-1.657 1.27-1.27.987-.16ZM21.283 7l.9 1.802 2.925.973.65 2.602 2.232 1.242-13.52 13.52-6.663-6.663zm4.414 11.74 6.5 6.207a.984.984 0 0 1 .018 1.43l-5.266 5.265a.985.985 0 0 1-1.412.002l-.41-.408 2.29-2.29-1.415-1.413-2.293 2.293-1.742-1.733 1.039-1.037-1.414-1.414-1.041 1.041-1.402-1.394ZM6.393 21.89l6.664 6.662-4.4 4.4-6.665-6.663Z"
+                  fill="#fff" />
+              </svg>
+            </div>
+            <span class="featurettes__heading">Разрабо&shy;тать функцио&shy;нал</span>
+          </div>
+          <div class="featurettes__item">
+            <div class="featurettes__icon" data-animation="rotate360">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path
+                  d="M21.217 1.932A14.969 14.969 0 0 0 16 1C7.716 1 1 7.716 1 16c0 4.946 2.394 9.333 6.086 12.065m2.787 1.63A14.948 14.948 0 0 0 16 31c8.284 0 15-6.716 15-15 0-5.148-2.593-9.69-6.544-12.391M1.91 28.134h6.226M7.265 29.043v-6.225M29.045 2.818h-6.227M23.69 1.91v6.224"
+                  stroke="#fff" stroke-width="2" />
+              </svg>
+            </div>
+            <span class="featurettes__heading">Обновить систему</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="publications" id="publications">
+      <div class="publications__container container">
+        <h1 class="publications__heading heading">Публикации</h1>
+        <h2 class="publications__subheading subheading">Делимся своим опытом и экспертизой</h2>
+        <div class="publications__slides swiper">
+          <div class="swiper-wrapper">
+            <div class="publications__slide slide swiper-slide">
+              <div class="slide__image-wrapper _image-wrapper">
+                <img class="_bkgr-image" data-lazyload="" src="images/placeholder.svg"
+                  data-src="images/blog/people_of_outsource_01.jpg" alt="Как мы подбираем людей для аутсорс-продакшна"
+                  width="270" height="190">
+              </div>
+              <div class="slide__content">
+                <h3 class="slide__heading">Как мы подбираем людей для аутсорс-продакшна</h3>
+                <div class="slide__description">
+                  <p>
+                    Реализация дополнительного поля для элементов, которое генерируется по определенным правилам (как
+                    SEO
+                    поля).
+                  </p>
+                </div>
+                <hr class="slide__separator">
+                <div class="slide__bottom">
+                  <div class="slide__author">
+                    <svg width="96" height="20" viewBox="0 0 96 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      role="img" aria-label="Manao logo">
+                      <path
+                        d="M96 9.09c0 .896-.162 1.741-.487 2.537a6.476 6.476 0 0 1-1.426 2.134 6.614 6.614 0 0 1-2.13 1.436c-.79.332-1.62.5-2.486.5a6.464 6.464 0 0 1-4.636-1.935 6.39 6.39 0 0 1-1.42-2.126 6.677 6.677 0 0 1-.484-2.546c0-.901.162-1.75.484-2.546a6.46 6.46 0 0 1 1.42-2.143 6.46 6.46 0 0 1 2.121-1.427 6.53 6.53 0 0 1 2.515-.49c.878 0 1.71.164 2.5.49A6.438 6.438 0 0 1 94.088 4.4a6.685 6.685 0 0 1 1.425 2.155C95.838 7.358 96 8.2 96 9.09Zm-54.476.053a9.889 9.889 0 0 1-.108-.808c-.046-.367-.086-.672-.117-.913a6.621 6.621 0 0 1-.214.86 7.291 7.291 0 0 1-.348.878l-2.955 6.202H37.3l-2.96-6.34a9.57 9.57 0 0 1-.602-1.6c-.006.265-.026.54-.063.831-.037.29-.091.593-.162.907L32.2 15.362H30.37l2.775-12.598h.356l3.37 7.421c.054.123.14.335.254.626.114.293.25.654.413 1.083.117-.361.302-.82.553-1.374.066-.15.117-.264.148-.344l3.293-7.412h.353l2.838 12.598h-1.848l-1.351-6.22Zm13.923 6.219L54.06 12.12h-4.847l-1.42 3.242h-2.086l5.699-12.598h.444l5.694 12.598h-2.098Zm-5.497-4.95h3.41L52.105 7.54a11.02 11.02 0 0 1-.225-.631 14.56 14.56 0 0 1-.234-.796c-.065.276-.136.531-.214.769-.074.238-.15.458-.228.658L49.95 10.41Zm8.744 4.95V2.764h.497l7.275 7.204a17.808 17.808 0 0 1 1.329 1.53V2.766h1.83v12.596h-.498l-7.425-7.347c-.21-.214-.416-.437-.613-.672a9.648 9.648 0 0 1-.565-.74v8.759h-1.83Zm21.82 0-1.386-3.242H74.28l-1.42 3.242h-2.087l5.7-12.598h.444l5.694 12.598h-2.099Zm-5.498-4.95h3.41L77.172 7.54a11.097 11.097 0 0 1-.225-.631 14.471 14.471 0 0 1-.234-.796 10.01 10.01 0 0 1-.214.769c-.074.238-.151.458-.228.658l-1.255 2.871ZM93.93 9.09c0-.637-.114-1.242-.34-1.815a4.727 4.727 0 0 0-.971-1.53 4.299 4.299 0 0 0-1.432-1.018 4.246 4.246 0 0 0-1.716-.358 4.297 4.297 0 0 0-3.167 1.377c-.422.44-.747.948-.97 1.52a4.99 4.99 0 0 0-.333 1.824c0 .637.11 1.24.333 1.806.223.566.548 1.074.97 1.52a4.27 4.27 0 0 0 3.168 1.377 4.2 4.2 0 0 0 1.698-.352 4.458 4.458 0 0 0 1.449-1.024c.422-.447.746-.955.972-1.524.225-.573.34-1.172.34-1.803Z"
+                        fill="#3F0F72" />
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12.128 5.787 9.093 0 0 .038l8.325 13.28 3.804 6.069 3.803-6.069L24.256.038 15.164 0l-3.036 5.787ZM.576 2.092l4.457 7.095-4.457 8.108V2.092ZM23.693 2.092l-4.456 7.095 4.456 8.108V2.092Z"
+                        fill="#3F0F72" />
+                    </svg>
+                  </div>
+                  <div class="slide__date">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true">
+                      <rect x="1" y="1" width="14" height="14" rx="2" stroke="#C4C4C4" stroke-width="2" />
+                      <path fill="#C4C4C4"
+                        d="M4 4h2v2H4zM4 7h2v2H4zM4 10h2v2H4zM7 4h2v2H7zM7 7h2v2H7zM7 10h2v2H7zM10 4h2v2h-2zM10 7h2v2h-2z" />
+                    </svg><span class="slide__date-value">12 мая 2021</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="publications__slide slide swiper-slide">
+              <div class="slide__image-wrapper _image-wrapper">
+                <img class="_bkgr-image" data-lazyload="" src="images/placeholder.svg"
+                  data-src="images/blog/people_of_outsource_02.jpg" alt="Аутсорс-продакшна почему это важно" width="270"
+                  height="190">
+              </div>
+              <div class="slide__content">
+                <h3 class="slide__heading">Как мы подбираем людей для аутсорс-продакшна</h3>
+                <div class="slide__description">
+                  <p>
+                    Реализация дополнительного поля для элементов, которое генерируется по определенным правилам (как
+                    SEO
+                    поля).
+                  </p>
+                </div>
+                <hr class="slide__separator">
+                <div class="slide__bottom">
+                  <div class="slide__author">
+                    <svg width="96" height="20" viewBox="0 0 96 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      role="img" aria-label="Manao logo">
+                      <path
+                        d="M96 9.09c0 .896-.162 1.741-.487 2.537a6.476 6.476 0 0 1-1.426 2.134 6.614 6.614 0 0 1-2.13 1.436c-.79.332-1.62.5-2.486.5a6.464 6.464 0 0 1-4.636-1.935 6.39 6.39 0 0 1-1.42-2.126 6.677 6.677 0 0 1-.484-2.546c0-.901.162-1.75.484-2.546a6.46 6.46 0 0 1 1.42-2.143 6.46 6.46 0 0 1 2.121-1.427 6.53 6.53 0 0 1 2.515-.49c.878 0 1.71.164 2.5.49A6.438 6.438 0 0 1 94.088 4.4a6.685 6.685 0 0 1 1.425 2.155C95.838 7.358 96 8.2 96 9.09Zm-54.476.053a9.889 9.889 0 0 1-.108-.808c-.046-.367-.086-.672-.117-.913a6.621 6.621 0 0 1-.214.86 7.291 7.291 0 0 1-.348.878l-2.955 6.202H37.3l-2.96-6.34a9.57 9.57 0 0 1-.602-1.6c-.006.265-.026.54-.063.831-.037.29-.091.593-.162.907L32.2 15.362H30.37l2.775-12.598h.356l3.37 7.421c.054.123.14.335.254.626.114.293.25.654.413 1.083.117-.361.302-.82.553-1.374.066-.15.117-.264.148-.344l3.293-7.412h.353l2.838 12.598h-1.848l-1.351-6.22Zm13.923 6.219L54.06 12.12h-4.847l-1.42 3.242h-2.086l5.699-12.598h.444l5.694 12.598h-2.098Zm-5.497-4.95h3.41L52.105 7.54a11.02 11.02 0 0 1-.225-.631 14.56 14.56 0 0 1-.234-.796c-.065.276-.136.531-.214.769-.074.238-.15.458-.228.658L49.95 10.41Zm8.744 4.95V2.764h.497l7.275 7.204a17.808 17.808 0 0 1 1.329 1.53V2.766h1.83v12.596h-.498l-7.425-7.347c-.21-.214-.416-.437-.613-.672a9.648 9.648 0 0 1-.565-.74v8.759h-1.83Zm21.82 0-1.386-3.242H74.28l-1.42 3.242h-2.087l5.7-12.598h.444l5.694 12.598h-2.099Zm-5.498-4.95h3.41L77.172 7.54a11.097 11.097 0 0 1-.225-.631 14.471 14.471 0 0 1-.234-.796 10.01 10.01 0 0 1-.214.769c-.074.238-.151.458-.228.658l-1.255 2.871ZM93.93 9.09c0-.637-.114-1.242-.34-1.815a4.727 4.727 0 0 0-.971-1.53 4.299 4.299 0 0 0-1.432-1.018 4.246 4.246 0 0 0-1.716-.358 4.297 4.297 0 0 0-3.167 1.377c-.422.44-.747.948-.97 1.52a4.99 4.99 0 0 0-.333 1.824c0 .637.11 1.24.333 1.806.223.566.548 1.074.97 1.52a4.27 4.27 0 0 0 3.168 1.377 4.2 4.2 0 0 0 1.698-.352 4.458 4.458 0 0 0 1.449-1.024c.422-.447.746-.955.972-1.524.225-.573.34-1.172.34-1.803Z"
+                        fill="#3F0F72" />
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12.128 5.787 9.093 0 0 .038l8.325 13.28 3.804 6.069 3.803-6.069L24.256.038 15.164 0l-3.036 5.787ZM.576 2.092l4.457 7.095-4.457 8.108V2.092ZM23.693 2.092l-4.456 7.095 4.456 8.108V2.092Z"
+                        fill="#3F0F72" />
+                    </svg>
+                  </div>
+                  <div class="slide__date">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true">
+                      <rect x="1" y="1" width="14" height="14" rx="2" stroke="#C4C4C4" stroke-width="2" />
+                      <path fill="#C4C4C4"
+                        d="M4 4h2v2H4zM4 7h2v2H4zM4 10h2v2H4zM7 4h2v2H7zM7 7h2v2H7zM7 10h2v2H7zM10 4h2v2h-2zM10 7h2v2h-2z" />
+                    </svg><span class="slide__date-value">12 мая 2021</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="publications__slide slide swiper-slide">
+              <div class="slide__image-wrapper _image-wrapper">
+                <img class="_bkgr-image" data-lazyload="" src="images/placeholder.svg"
+                  data-src="images/blog/people_we_choose.jpg" alt="Как мы подбираем людей" width="270" height="190">
+              </div>
+              <div class="slide__content">
+                <h3 class="slide__heading">Как мы подбираем людей</h3>
+                <div class="slide__description">
+                  <p>
+                    Реализация дополнительного поля для элементов, которое генерируется по определенным правилам (как
+                    SEO
+                    поля).
+                  </p>
+                </div>
+                <hr class="slide__separator">
+                <div class="slide__bottom">
+                  <div class="slide__author">
+                    <img src="images/cossa_logo.png" alt="cossa logo" width="56" height="17">
+                  </div>
+                  <div class="slide__date">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true">
+                      <rect x="1" y="1" width="14" height="14" rx="2" stroke="#C4C4C4" stroke-width="2" />
+                      <path fill="#C4C4C4"
+                        d="M4 4h2v2H4zM4 7h2v2H4zM4 10h2v2H4zM7 4h2v2H7zM7 7h2v2H7zM7 10h2v2H7zM10 4h2v2h-2zM10 7h2v2h-2z" />
+                    </svg><span class="slide__date-value">12 мая 2021</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="publications__slide slide swiper-slide">
+              <div class="slide__image-wrapper _image-wrapper">
+                <img class="_bkgr-image" data-lazyload="" src="images/placeholder.svg"
+                  data-src="images/blog/people_of_outsource_02.jpg" alt="SEO и аутсорс-продакшен" width="270" height="190">
+              </div>
+              <div class="slide__content">
+                <h3 class="slide__heading">Как мы подбираем людей</h3>
+                <div class="slide__description">
+                  <p>
+                    Реализация дополнительного поля для элементов, которое генерируется по определенным правилам (как
+                    SEO
+                    поля).
+                  </p>
+                </div>
+                <hr class="slide__separator">
+                <div class="slide__bottom">
+                  <div class="slide__author">
+                    <img src="images/cossa_logo.png" alt="cossa logo" width="56" height="17">
+                  </div>
+                  <div class="slide__date">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true">
+                      <rect x="1" y="1" width="14" height="14" rx="2" stroke="#C4C4C4" stroke-width="2" />
+                      <path fill="#C4C4C4"
+                        d="M4 4h2v2H4zM4 7h2v2H4zM4 10h2v2H4zM7 4h2v2H7zM7 7h2v2H7zM7 10h2v2H7zM10 4h2v2h-2zM10 7h2v2h-2z" />
+                    </svg><span class="slide__date-value">12 мая 2021</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="publications__slide slide swiper-slide">
+              <div class="slide__image-wrapper _image-wrapper">
+                <img class="_bkgr-image" data-lazyload="" src="images/placeholder.svg"
+                  data-src="images/blog/people_of_outsource_02.jpg" alt="Аутсорс-продакшна почему это важно" width="270"
+                  height="190">
+              </div>
+              <div class="slide__content">
+                <h3 class="slide__heading">Как мы подбираем людей для аутсорс-продакшна</h3>
+                <div class="slide__description">
+                  <p>
+                    Реализация дополнительного поля для элементов, которое генерируется по определенным правилам (как
+                    SEO
+                    поля).
+                  </p>
+                </div>
+                <hr class="slide__separator">
+                <div class="slide__bottom">
+                  <div class="slide__author">
+                    <svg width="96" height="20" viewBox="0 0 96 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      role="img" aria-label="Manao logo">
+                      <path
+                        d="M96 9.09c0 .896-.162 1.741-.487 2.537a6.476 6.476 0 0 1-1.426 2.134 6.614 6.614 0 0 1-2.13 1.436c-.79.332-1.62.5-2.486.5a6.464 6.464 0 0 1-4.636-1.935 6.39 6.39 0 0 1-1.42-2.126 6.677 6.677 0 0 1-.484-2.546c0-.901.162-1.75.484-2.546a6.46 6.46 0 0 1 1.42-2.143 6.46 6.46 0 0 1 2.121-1.427 6.53 6.53 0 0 1 2.515-.49c.878 0 1.71.164 2.5.49A6.438 6.438 0 0 1 94.088 4.4a6.685 6.685 0 0 1 1.425 2.155C95.838 7.358 96 8.2 96 9.09Zm-54.476.053a9.889 9.889 0 0 1-.108-.808c-.046-.367-.086-.672-.117-.913a6.621 6.621 0 0 1-.214.86 7.291 7.291 0 0 1-.348.878l-2.955 6.202H37.3l-2.96-6.34a9.57 9.57 0 0 1-.602-1.6c-.006.265-.026.54-.063.831-.037.29-.091.593-.162.907L32.2 15.362H30.37l2.775-12.598h.356l3.37 7.421c.054.123.14.335.254.626.114.293.25.654.413 1.083.117-.361.302-.82.553-1.374.066-.15.117-.264.148-.344l3.293-7.412h.353l2.838 12.598h-1.848l-1.351-6.22Zm13.923 6.219L54.06 12.12h-4.847l-1.42 3.242h-2.086l5.699-12.598h.444l5.694 12.598h-2.098Zm-5.497-4.95h3.41L52.105 7.54a11.02 11.02 0 0 1-.225-.631 14.56 14.56 0 0 1-.234-.796c-.065.276-.136.531-.214.769-.074.238-.15.458-.228.658L49.95 10.41Zm8.744 4.95V2.764h.497l7.275 7.204a17.808 17.808 0 0 1 1.329 1.53V2.766h1.83v12.596h-.498l-7.425-7.347c-.21-.214-.416-.437-.613-.672a9.648 9.648 0 0 1-.565-.74v8.759h-1.83Zm21.82 0-1.386-3.242H74.28l-1.42 3.242h-2.087l5.7-12.598h.444l5.694 12.598h-2.099Zm-5.498-4.95h3.41L77.172 7.54a11.097 11.097 0 0 1-.225-.631 14.471 14.471 0 0 1-.234-.796 10.01 10.01 0 0 1-.214.769c-.074.238-.151.458-.228.658l-1.255 2.871ZM93.93 9.09c0-.637-.114-1.242-.34-1.815a4.727 4.727 0 0 0-.971-1.53 4.299 4.299 0 0 0-1.432-1.018 4.246 4.246 0 0 0-1.716-.358 4.297 4.297 0 0 0-3.167 1.377c-.422.44-.747.948-.97 1.52a4.99 4.99 0 0 0-.333 1.824c0 .637.11 1.24.333 1.806.223.566.548 1.074.97 1.52a4.27 4.27 0 0 0 3.168 1.377 4.2 4.2 0 0 0 1.698-.352 4.458 4.458 0 0 0 1.449-1.024c.422-.447.746-.955.972-1.524.225-.573.34-1.172.34-1.803Z"
+                        fill="#3F0F72" />
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12.128 5.787 9.093 0 0 .038l8.325 13.28 3.804 6.069 3.803-6.069L24.256.038 15.164 0l-3.036 5.787ZM.576 2.092l4.457 7.095-4.457 8.108V2.092ZM23.693 2.092l-4.456 7.095 4.456 8.108V2.092Z"
+                        fill="#3F0F72" />
+                    </svg>
+                  </div>
+                  <div class="slide__date">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true">
+                      <rect x="1" y="1" width="14" height="14" rx="2" stroke="#C4C4C4" stroke-width="2" />
+                      <path fill="#C4C4C4"
+                        d="M4 4h2v2H4zM4 7h2v2H4zM4 10h2v2H4zM7 4h2v2H7zM7 7h2v2H7zM7 10h2v2H7zM10 4h2v2h-2zM10 7h2v2h-2z" />
+                    </svg><span class="slide__date-value">12 мая 2021</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    @@include('html/footer.html', {})
+  </div>
+  <div class="popup-overlay"></div>
+  <div class="thank-you-popup">
+    <button class="thank-you-popup__close-button" type="button" name="thank-you-close">
+      <span class="sr-only">Закрыть</span>
+    </button>
+    <span>Спасибо, ваша заявка принята</span>
+    <hr>
+  </div>
+  <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="sr-only">
+    <linearGradient id="grad" gradientTransform="rotate(8, 0.5, 0.5)">
+      <stop offset="13.07%" stop-color="#3F0F72" />
+      <stop offset="85.2%" stop-color="#791281" />
+    </linearGradient>
+    <symbol id="borderGradient" overflow="visible" fill="none">
+      <rect width="100%" height="100%" rx="27" stroke-width="2" stroke="url(#grad)" />
+    </symbol>
+  </svg>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
