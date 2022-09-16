@@ -4,13 +4,13 @@ const gulpEsbuild = createGulpEsbuild({ incremental: true, piping: true });
 
 export const scripts = () => {
   return app.gulp
-    .src(app.path.src.scripts, { sourcemaps: true })
+    .src(app.path.src.scripts, { sourcemaps: app.isDev })
     .pipe(
       gulpEsbuild({
         outfile: "main.js",
         bundle: true,
-        //minify: true,
-        sourcemap: true,
+        minify: app.isBuild ? true : false,
+        sourcemap: app.isBuild ? false : true,
         target: [
           "es2021",
           "chrome69",

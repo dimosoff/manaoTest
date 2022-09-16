@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // swiper //
 
   // eslint-disable-next-line no-unused-vars, no-undef
-  const swiper = new Swiper(".swiper", {
+  /*const swiper = new Swiper(".swiper", {
     // Optional parameters
     loop: true,
     rewind: false,
@@ -91,9 +91,9 @@ document.addEventListener("DOMContentLoaded", function () {
     //setWrapperSize: true,
 
     // If we need pagination
-    /*pagination: {
-      el: '.swiper-pagination',
-    },*/
+    //pagination: {
+    //  el: '.swiper-pagination',
+    //},
 
     // Navigation arrows
     navigation: {
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
         myFunctions.myLazyLoad();
       },
     },
-  });
+  });*/
 
   // form validation //
 
