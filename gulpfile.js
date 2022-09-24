@@ -16,7 +16,7 @@ import { html } from "./gulp/tasks/html.js";
 import { server } from "./gulp/tasks/server.js";
 import { scss } from "./gulp/tasks/scss.js";
 import { scripts } from "./gulp/tasks/scripts.js";
-import { images } from "./gulp/tasks/images.js";
+import { images, imagesWebp } from "./gulp/tasks/images.js";
 import { fonts } from "./gulp/tasks/fonts.js";
 
 function watcher() {
@@ -30,6 +30,8 @@ function watcher() {
 const mainTasks = gulp.parallel(copy, html, scss, scripts, images);
 
 const dev = gulp.series(reset, mainTasks, gulp.parallel(watcher, server));
+const build = gulp.series(reset, mainTasks, imagesWebp);
 
-gulp.task("default", dev);
+gulp.task("dev", dev);
+gulp.task("build", build);
 gulp.task("fontsGenerator", fonts);

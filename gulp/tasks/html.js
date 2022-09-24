@@ -7,10 +7,13 @@ export const html = () => {
     .src(app.path.src.html)
     .pipe(fileinclude())
     .pipe(
-      gulpHtmlImgWrapper({
-        logger: true,
-        extensions: [".jpg", ".jpeg"],
-      })
+      app.plugins.if(
+        app.isBuild,
+        gulpHtmlImgWrapper({
+          logger: true,
+          extensions: [".jpg", ".jpeg"],
+        })
+      )
     )
     .pipe(
       app.plugins.if(
